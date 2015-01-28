@@ -1,0 +1,21 @@
+
+/**
+ * Campaign Monitor logo.
+ */
+
+.logo[data-logo="Campaign Monitor"] {
+  width: 0;
+}
+
+.logo[data-logo="Campaign Monitor"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Campaign Monitor"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Campaign Monitor"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}

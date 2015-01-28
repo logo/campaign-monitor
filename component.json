@@ -1,0 +1,19 @@
+{
+  "logo": "Campaign Monitor",
+  "name": "campaign-monitor",
+  "repo": "logo/campaign-monitor",
+  "description": "The Campaign Monitor logo.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/logo.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg"
+  ],
+  "dependencies": {
+    "logo/logo": "*"
+  }
+}
